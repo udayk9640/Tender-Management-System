@@ -1,7 +1,7 @@
-package controllers;
+package com.uday.tms.controllers;
 
-public class Login 
-{
+public class Login {
+
 	public String userid;
 	public String password;
 	
@@ -27,5 +27,4 @@ public class Login
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
 }
